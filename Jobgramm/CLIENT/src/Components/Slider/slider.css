@@ -1,0 +1,17 @@
+.carousel{
+    width: 70%;
+    color: black;
+    margin-left: 15%;
+    margin-top: 20px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+img{
+    height:400px ;
+}
+.h3,.p {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}

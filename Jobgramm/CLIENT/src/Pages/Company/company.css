@@ -1,0 +1,42 @@
+.accordion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+   width: 100%;
+
+}
+
+.accordion-item{
+    width: 80%;
+    border: 1px snow black;
+    border-color: rgb(111, 234, 111);
+
+    margin-bottom: 1px;
+
+}
+.accordion-button{
+    color: black;
+
+}
+.accordion-button:focus{
+    box-shadow: none;
+    outline: none;
+    color: black;
+}
+.accordion-item:hover{
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+    transform: scale(1.01);
+    border: 4px solid rgb(132, 254, 132);
+    
+}
+
+.general{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 2%;
+    
+}

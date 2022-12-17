@@ -1,0 +1,24 @@
+footer{
+    background-color: black;
+
+}
+#sec1{
+    border-top: 1px solid rgb(44, 235, 44);
+}
+#footerLink {
+    text-decoration: underline;
+}
+#footerLink:hover{
+    transition: 0.2s ease;
+    text-decoration-color: rgb(94, 236, 94);
+    padding: 5px;
+    
+}
+#footerSocial{
+    color: rgb(66, 236, 66);
+}
+#footerContact{
+    cursor: pointer;
+    
+
+}

@@ -1,0 +1,11 @@
+.header{
+    margin-bottom: 150px;
+}
+.navbar{
+    position: fixed;
+    height: 80px;
+    border-bottom: 1px solid rgb(111, 234, 111);
+    z-index: 2;
+    top: 0;
+    width: 100%;
+}

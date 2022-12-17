@@ -1,0 +1,21 @@
+#headerHeader{
+    margin-bottom: 150px;
+}
+/* .nav-item{
+    color: white;
+} */
+#headerBtn {
+    margin-left: 5px;
+}
+#headerFormControl{
+    border-color: rgb(111, 234, 111);
+    
+}
+#headerFormControl:focus{
+    box-shadow: none;
+    border-color: rgb(111, 234, 111);
+}
+#headerFormControl:hover{
+   
+    border-color: green;
+}

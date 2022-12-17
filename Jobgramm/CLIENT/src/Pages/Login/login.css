@@ -1,0 +1,45 @@
+
+.formi{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(89, 228, 89);
+    border-radius: 0px;
+}
+.form-outline{
+    display: flex;
+    flex-direction: column-reverse;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.formm{
+
+    padding: 10px;
+    /* border:1px solid black;
+    padding: 5px; */
+    /* box-shadow: 0 1px 4px 0 rgb(102, 229, 104), 0 3px 13px 0 rgba(114, 234, 93, 0.795); */
+}
+/* .fa-facebook-f{
+    color: rgb(80, 141, 255);
+}
+.fa-twitter{
+  
+    color: rgb(80, 141, 255);
+
+}
+.fa-linkedin-in{
+    color: rgb(80, 141, 255);
+
+} */
+.sosial-media{
+    margin-left: -16px;
+}
+/* .form-outline{
+    border:1px solid black;
+} */
+.form-outline label{
+    font-weight:400;
+}
+
+

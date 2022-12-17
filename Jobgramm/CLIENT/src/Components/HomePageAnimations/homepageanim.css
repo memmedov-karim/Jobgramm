@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.animationscontanier{
+    background: rgba(213, 239, 190, 0.45);
+    height: 400px;
+    overflow: scroll;
+}
+.h11{
+    font-weight: 600;
+    text-align: center;
+    animation: moveright 1.5s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards
+}
+@keyframes moveright{
+    0%{
+        transform: translateX(-400px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateY(0);
+        visibility: visible;
+        
+    }
+}
+.text_content1{
+    /* border: 1px solid black; */
+    border-top: 2px solid rgb(96, 225, 100);
+    width: 80%;
+    margin-left: 10%;
+    padding: 5px;
+    height: 300px;
+    overflow: scroll;
+    animation: moveleft 1.5s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards
+
+}
+
+@keyframes moveleft{
+    0%{
+        transform: translateX(400px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateY(0);
+        visibility: visible;
+        
+    }
+}
+
+.h12{
+    font-weight: 600;
+    text-align: center;
+    animation: moveleft 1.5s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards
+}
+.text_content2{
+    /* border: 1px solid black; */
+    border-top: 2px solid rgb(96, 225, 100);
+    width: 80%;
+    margin-left: 10%;
+    padding: 5px;
+    height: 300px;
+    overflow: scroll;
+    animation: moveright 1.5s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards
+    /* display:none; */
+
+}
+.first{
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+}
+.btn1{
+    position: absolute;
+    left: 80%;
+    top: 80%;
+    background: rgba(32, 232, 99, 0.379);
+    width: 8%;
+    border: none;
+    padding: 2px;
+    height:45px;
+    border-radius:10px;
+    animation: moveright 1.5s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards
+
+
+}
+.btn1:hover{
+    color: white;
+    background: rgba(32, 232, 99, 0.679);
+}
+
+.second{
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+}
+.btn2{
+    position: absolute;
+    left: 80%;
+    top: 80%;
+    background: rgba(32, 232, 99, 0.379);
+    width: 8%;
+    border: none;
+    padding: 2px;
+    height:45px;
+    border-radius:10px;
+    animation: moveleft 1.5s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards
+
+}
+.btn2:hover{
+    color: white;
+    background: rgba(32, 232, 99, 0.679);
+}

@@ -1,0 +1,13 @@
+.btns{
+    display: flex;
+    flex-direction: row;
+}
+.head{
+    text-align: center;
+}
+.submitted{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

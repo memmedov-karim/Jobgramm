@@ -1,0 +1,84 @@
+#allJobsRw{
+    width: 80%;
+    border:none;
+    border-top: 1px solid rgb(83, 221, 83);
+    margin-left: 10%;
+    margin-top: 50px;
+    overflow: scroll;
+    height: 500px;
+    
+}
+#allJobsCardBody{
+    height: 120px;
+    overflow: hidden;
+}
+#allJobsCardImgTop{
+    height: 240.333px;
+}
+#allJobsCol{
+    position: relative;
+    min-width: 260px;
+}
+#allJobsFormGroup{
+    display: flex;
+    width: 100%;
+}
+#allJobsModalDialog{
+    width: 100%;
+} 
+#allJobsDetail{
+    position: absolute;
+    top: 175px;
+    left: 37.5%;
+    z-index: 1;
+    width: 25%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(140, 242, 140);
+    opacity: 0.5;
+    display: none;
+    
+}
+#allJobsDetail:hover{
+    transition: 0.2s ease;
+    color: white;
+
+    
+    opacity: 1;
+}
+#allJobsCol:hover{
+    
+    z-index: 1;
+    transform: scale(1.09);
+    transition: 0.3s ease-in-out;
+}
+#allJobsCol:hover .detail{
+    display: block;
+    
+}
+#allJobsCardTitle{
+    text-decoration: none;
+    color: black;
+}
+.levellanguage{
+
+    padding: 0px;
+    border-radius: 3px;
+
+    
+    
+}
+.leftControl{
+    margin-top: 7px;
+}
+#allJobsCardFooter{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:992px) {
+    #allJobsDetail{
+        display: block;
+    }
+   
+}

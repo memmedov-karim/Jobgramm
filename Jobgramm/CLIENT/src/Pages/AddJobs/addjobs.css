@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jacques+Francois+Shadow&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+#addJobsBtn{
+    margin-left: 5px;
+}
+#addJobContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* border:1px solid black; */
+    margin-top: 30px;
+}
+#addJobButtons{
+    margin: auto;
+}
+#addJobLeft{
+    width: 40%;
+    
+}
+#addJobRight{
+    width: 40%;
+    /* border:1px solid black; */
+}
+#addJobFormad{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+}
+.form-control{
+    width: 100%;
+}
+#addJobmywork{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+.myWorkCont{
+    width: max(70%, 100px);
+    margin: auto;
+}
+
+.tbHead{
+    font-family: 'Inter';
+    width: max(35%, 250px);
+    margin: auto;
+    text-align: center;
+}
+
+.workTableBtnCont{
+    width: max(19%, 150px);
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.backButton{
+    background: #4B81E9;
+    border-radius: 7px;
+    border: none;
+    width: 4em;
+    height: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.addButton{
+    width: 5em;
+    height: 30px;
+    background: #368A28;
+    border-radius: 7px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 24px;
+    color: #FFFFFF;    
+    cursor: pointer;
+}
+
+.tableInside{
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+
+#th, #td{
+    border: 1px solid #000000;
+    text-align: start;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3em;
+    padding: 3px 2%;
+}
+
+#th{
+    font-family: 'Inter';
+    height: 47px;
+}
+
+#td{
+    font-family: 'Inter';
+    height: 65px;
+}
+
+
+
+.editbutton{
+    width: clamp(4em, 20%, 5em);
+    height: 30px;
+    background: #285321;
+    border-radius: 7px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7em;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.deleteButton{
+    width: clamp(3em ,15%, 4em);
+    height: 30px;
+    background: #E4202B;
+    border-radius: 7px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media (min-width: 590px) and (max-width: 870px){
+    #th, #td{
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 590px){
+    #th, #td{
+        font-size: 0.7em;
+    }
+
+    .myWorkCont{
+        width: 90%;
+    }
+}
